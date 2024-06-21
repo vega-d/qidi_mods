@@ -28,5 +28,5 @@ to apply this mod:
 - if you do not know what you're doing, ask someone who does. You can reach out to me by email at msg@vega76.cz
 
 # credits:
-Thanks to https://github.com/DaNinjaSmurf for beta testing this on X plus 3
-Thanks to `argueforsport` on discord for providing measurements for X max 3
+- Thanks to https://github.com/DaNinjaSmurf for beta testing this on X plus 3
+- Thanks to `argueforsport` on discord for providing measurements for X max 3
