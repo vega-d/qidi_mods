@@ -27,6 +27,18 @@ to apply this mod:
 - you know what you're doing. Proceed. 
 - if you do not know what you're doing, ask someone who does. You can reach out to me by email at msg@vega76.cz
 
+## what is this ominous .tar.gz file in the repo?
+I took the stock klipper install out of my x plus 3 and put it in a tarball.
+On an offchance you accidentally clicked "update" in the fluidd webui of stock firmware and soft-bricked the printer, this is what y>
+this command should extract the klipper install into a temp folder, wipe your existing one, and move my backup copy in place. then c>
+```
+cd /tmp && \
+git clone https://github.com/vega-d/qidi_mods && \
+tar -zxvf qidi_mods/stock-klipper.tar.gz -C /tmp/ && \
+rm -rf /home/mks/klipper && \
+mv -r /tmp/mnt/stockfw/home/mks/klipper /home/mks/
+```
+
 # credits:
 - Thanks to https://github.com/DaNinjaSmurf for beta testing this on X plus 3
 - Thanks to `argueforsport` on discord for providing measurements for X max 3
